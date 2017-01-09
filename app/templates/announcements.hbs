@@ -1,0 +1,10 @@
+<h2>
+  Here are the current announcements for Super Rental
+</h2>
+<ul>
+  {{#each model as |announcement|}}
+    {{announcement-tile announcement=announcement destroyAnnouncement="destroyAnnouncement"}}
+  {{/each}}
+</ul>
+
+{{new-announcement saveAnnouncement2="saveAnnouncement3"}}

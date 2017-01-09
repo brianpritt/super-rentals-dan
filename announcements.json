@@ -1,0 +1,5 @@
+{ "announcements": [{
+    "description": "I am a string",
+    "type": "I too am a string",
+    "importance": "Very High" }]
+  }
