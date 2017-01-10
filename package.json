@@ -4,7 +4,6 @@
   "description": "Small description for super-rentals goes here",
   "private": true,
   "directories": {
-    "doc": "doc",
     "test": "tests"
   },
   "scripts": {
@@ -12,7 +11,10 @@
     "start": "ember server",
     "test": "ember test"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Solgo/js_rentalapp.git"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -40,5 +42,10 @@
     "ember-welcome-page": "^1.0.1",
     "emberfire": "2.0.5",
     "loader.js": "^4.0.1"
-  }
+  },
+  "main": "ember-cli-build.js",
+  "bugs": {
+    "url": "https://github.com/Solgo/js_rentalapp/issues"
+  },
+  "homepage": "https://github.com/Solgo/js_rentalapp#readme"
 }
